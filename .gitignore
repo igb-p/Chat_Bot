@@ -387,6 +387,11 @@ FodyWeavers.xsd
 # Local History for Visual Studio Code
 .history/
 
+.vs/
+./*.sln
+./*.pyproj
+*.sln
+*.pyproj
 # Windows Installer files from build outputs
 *.cab
 *.msi
