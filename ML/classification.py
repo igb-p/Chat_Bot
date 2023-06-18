@@ -30,7 +30,7 @@ y = df.Категория
 #обучение
 text_clf = Pipeline([
 
-('tfidf', TfidfVectorizer(ngram_range=(1,2))), 
+('count', TfidfVectorizer(ngram_range=(1,2))), 
 ('clf', MultinomialNB())])
 
 text_clf = text_clf.fit(x, y)

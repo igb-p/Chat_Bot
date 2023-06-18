@@ -6,7 +6,7 @@ nltk.download("stopwords")
 mystem = Mystem()
 stopwords = stopwords.words("russian")
 
-# стемминг, лемматизация, исключение цифр
+# лемматизация, приведение к нижнему регистру, исключение цифр
 def text_preprocessing (text):
   text = str(text)
   tokens = mystem.lemmatize(text.lower())
